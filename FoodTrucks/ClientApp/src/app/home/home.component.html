@@ -1,0 +1,31 @@
+<h1>San Francisco Food Trucks</h1>
+
+<div id="outer">
+  <div id="inner">
+    <button mat-flat-button (click)="getFood('pizza')" type="button" color="primary">Pizza</button>&nbsp;&nbsp;
+    <button mat-flat-button (click)="getFood('burger')" type="button" color="primary">Burgers</button>&nbsp;&nbsp;
+    <button mat-flat-button (click)="getFood('ice cream')" type="button" color="primary">Ice Cream</button>&nbsp;&nbsp;
+    <button mat-flat-button (click)="getFood('burrito')" type="button" color="primary">Burritos</button>&nbsp;&nbsp;
+    <button mat-flat-button (click)="getFood('chinese')" type="button" color="primary">Chinese</button>&nbsp;&nbsp;
+    <button mat-flat-button (click)="getFood('hot dog')" type="button" color="primary">Hot Dogs</button>&nbsp;&nbsp;
+    <button mat-flat-button (click)="getFood('sandwich')" type="button" color="primary">Sandwiches</button>&nbsp;&nbsp;
+    <button mat-flat-button (click)="getFood('dessert')" type="button" color="primary">Dessert</button>&nbsp;&nbsp;
+    <button mat-flat-button (click)="clearMap()" type="button" #btnFocus=matButton [autofocus]="btnFocus.focus()" color="accent">Clear</button>&nbsp;&nbsp;
+
+  </div>
+</div>
+
+<div id="outer">
+  <div id="inner">
+    <button mat-flat-button (click)="getApprovedVendors()" type="button">Approved Vendors</button>&nbsp;&nbsp;
+    <button mat-flat-button (click)="getExpiredVendors()" type="button">Expired Permits</button>&nbsp;&nbsp;
+    <button mat-flat-button (click)="getAllVendors()" type="button">All Vendors</button>&nbsp;&nbsp;
+    <button mat-flat-button (click)="getApprovedFoodTrucks()" type="button">Trucks</button>&nbsp;&nbsp;
+    <button mat-flat-button (click)="getAllFoodCarts()" type="button">Carts</button>&nbsp;&nbsp;
+    <button mat-flat-button (click)="getApprovedTacoTrucks()" type="button">Taco Trucks</button>&nbsp;&nbsp;
+    <button mat-flat-button (click)="getSenorSisigTacoTrucks()" type="button">Senor Sisig</button>&nbsp;&nbsp;
+  </div>
+</div>
+
+<div class='custom-popup' id="map">
+</div>
