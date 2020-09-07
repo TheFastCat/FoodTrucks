@@ -56,7 +56,7 @@ Effort was made for separation of concerns, declarative intent and extensibility
  1. Within Visual Studio, open the 'Test Explorer' view
  2. Right-click 'FoodTruckXUnitTests' and select ''Run"
 
-### Back-end
+### Front-end
 Automated front-end testing is supported but minimally implemented:
 
  - Type `ng e2e` from the command line within 'FoodTrucks/ClientApp' to execute 
