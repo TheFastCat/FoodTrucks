@@ -22,8 +22,7 @@ For best play-along experience:
 	 - **Cuisine** (aka 'fooditems' -- eg pizza, hot dogs)
 	 - A link to generate an online **schedule** .pdf (this is loaded in a separate tab as it can take minutes to be generated due to external dependency);
 	 - **Hours of operation** (aka 'dayshours' -- this field is deprecated and only visible on expired vendors)
-	 - If the vendor location's city permit is **expired**, it will also appear
-	 - 
+	 - If the vendor location's city permit is **expired**, it will also appear	 
 ### Configuration
  Because there does not exist a real-time data API to pull San Francisco's food truck data, In order to maintain a consistent UX for the remainder of eternity (and keep presumptive testing unaffected in the future), the FoodTrucks application uses static "today" date used for comparison of food truck data (such as license expiration date).
  
